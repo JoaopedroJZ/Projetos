@@ -196,13 +196,13 @@ article.extras {
 article a {
     text-decoration: none;
     color: black;
-    transition-duration: .3s;
+    transition-duration: .15s;
 }
 
 article a:hover {
     color: #000DDE;
     text-decoration: underline;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .15s;
 }
 
 
@@ -232,6 +232,26 @@ article#segundo ol li {
     background-color: rgba(78, 99, 158, 0.897);
 }
 
+article.contatos li.ultimo {
+    border-radius:  0px 0px 5px 5px;
+}
+
+article ol li{
+    background-color: #6072A7;
+}
+
+article p {
+    background-color:  #6072A7;
+}
+
+article h1 {
+    background-image: linear-gradient(240deg, rgba(33, 104, 145, 0.822), rgb(22, 64, 143)) ;
+}
+
+strong.email {
+    color: #000DDE;
+}
+
 /* footer */
 
 footer {
@@ -242,3 +262,4 @@ footer {
     margin-top: 30px;
     padding: 5px;
 }
+
