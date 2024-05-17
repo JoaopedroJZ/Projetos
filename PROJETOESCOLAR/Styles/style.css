@@ -7,14 +7,16 @@
 
 body {
     height: 100vh;
-    background-color: antiquewhite;
+
+    background: black url(../imagens/fundo.jpeg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 
 /* header */
 
 header {
-    background-image: linear-gradient(360deg, rgb(89, 115, 145), rgb(114, 73, 209));;
+    background-image: linear-gradient(360deg, rgb(60, 112, 172), rgb(106, 47, 243));;
     background-size: cover;
     padding: 1px;
     max-width: 2460px;
