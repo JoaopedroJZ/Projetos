@@ -129,7 +129,7 @@ article ol li {
 
 }
 
-article img {
+article.img img {
     display: block;
     margin: auto;
     padding-top: 15px;
@@ -256,6 +256,22 @@ article.contatos h1 {
     color: white;
 }
 
+#flex {
+   display: flex;
+   flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #9d60ad;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+    padding-bottom: 10px;
+}
+
 /* footer */
 
 footer {
@@ -267,3 +283,9 @@ footer {
     padding: 5px;
 }
 
+@media (max-width: 730px) {
+    div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
