@@ -216,7 +216,7 @@ article#primeiro h1 {
 }
 
 article#primeiro p {
-    background-color: #9d60ad;
+    background-color: #9D60AD;
 }
 
 article#segundo h1 {
@@ -265,7 +265,7 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #9d60ad;
+    background-color: #9D60AD;
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 20px;
