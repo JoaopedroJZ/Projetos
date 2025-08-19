@@ -1,0 +1,97 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'padrao';
+    src: url('../PROJETOESCOLAR/fontes/BebasNeue-Regular.ttf') format('TrueType')
+    
+}
+
+body {
+    height: 100vh;
+    background: black url(imagem_2025-08-18_221909236\(2\).png) center center fixed;
+     background-repeat: no-repeat;
+      background-size: cover;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    max-width: 2460px;
+    min-width: 360px;
+    background-image: linear-gradient(180deg, #e27d47, #df664ec2);
+    font: bold 1.5em 'padrao';
+    letter-spacing: 1.5px;
+
+}
+
+header img {
+    display: flex;
+   
+}
+
+header > h1{
+   color: white;
+   padding: 3px;
+}
+
+
+header > h2{
+    color: white;
+    padding: 3px;
+ }
+
+main {
+    max-width: 800px;
+    min-width: 460px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 8px;
+    margin: auto;
+
+}
+
+ main h1 {
+    background-image: linear-gradient(90deg, #c04d4d, #cf6f6f);
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+    font: bold 1.5em 'arial';
+    color: white;
+}
+
+main p {
+    padding: 5px;
+    background-color: #c77a7ad2;
+    font: normal 1em arial;
+    margin-bottom: 10px;
+    text-indent: 30px;
+    line-height: 1.3em;
+    border-radius: 0px 0px 5px 5px;
+}
+
+div > p > picture {
+    display:block;
+    text-align: center;
+   padding: 5px;
+}
+
+.resumo {
+    background-image: linear-gradient(90deg, #da812e, #df8722b6);
+}
+
+.resumotext {
+    background-color: #ce9865b0;
+    margin-bottom: 3px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
