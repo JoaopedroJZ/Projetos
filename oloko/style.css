@@ -7,7 +7,6 @@
 }
 
 body {
-    background-color: #EB8B21;
     height: 100vh;
     background: black url(imagem_2025-08-18_221909236\(2\).png) center center fixed;
      background-repeat: no-repeat;
@@ -90,4 +89,9 @@ div > p > picture {
 }
 
 
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
 
