@@ -9,6 +9,9 @@
 body {
     background-color: #EB8B21;
     height: 100vh;
+    background: black url(imagem_2025-08-18_221909236\(2\).png) center center fixed;
+     background-repeat: no-repeat;
+      background-size: cover;
 }
 
 * {
@@ -20,7 +23,7 @@ header {
     text-align: center;
     max-width: 2460px;
     min-width: 360px;
-    background-image: linear-gradient(90deg, #EB6820, #EB4421);
+    background-image: linear-gradient(180deg, #e27d47, #df664ec2);
     font: bold 1.5em 'padrao';
     letter-spacing: 1.5px;
 
